@@ -12,5 +12,5 @@ console.log(a, b, c);
 b = c;
 console.log(a, b, c); */
 
-[a, b] = [b, a]
-console.log(a, b);
+[a, b] = [b, a];
+console.log("a = " + a, "b = " + b);
