@@ -1,19 +1,23 @@
-let dobro = function(a) {
-    return 2 * a
-}
+// (17-19) - Função Arrow (=>)
+// É uma forma mais simplificada de escrever funções, sendo mais utilizada para funções pequenas e callbacks.
+let dobro = function (a) {
+  return 2 * a; // Função comum
+};
 
 dobro = (a) => {
-    return 2 * a
-}
+  return 2 * a; // Função Arrow com retorno explicito
+};
 
-dobro = a => 2 * a //retorno implícito
+dobro = (a) => 2 * a; // Função Arrow com retorno implícito
 
-console.log(dobro(Math.PI))
+console.log(dobro(Math.PI));
 
-let ola = function() {
-    return 'Olá'
-}
+// (24-26) - Função Arrow com parâmetro
+let ola = function () {
+  return "Olá"; // Função comum
+};
 
-ola = () => 'Olá'
-ola = _ => 'olá' // pussui parametro
-console.log(ola())
+ola = () => "Olá"; // Função Arrow com retorno explícito
+
+ola = (_) => "olá"; // Função Arrow com parâmetro opcional
+console.log(ola());
